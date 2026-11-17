@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Practical calculators, checklists, and templates to help you start and grow a small business.">
+  <meta name="theme-color" content="#101b2b">
+  <title>LaunchReady Toolkit — Build your business with a clearer plan</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="LaunchReady Toolkit home">
+      <span class="brand-mark">LR</span><span>LaunchReady<span class="brand-light"> Toolkit</span></span>
+    </a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#tools">Free tools</a><a href="#resources">Resources</a><a href="#products">Templates</a>
+      <a class="nav-cta" href="#starter">Get the free starter kit</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="dot"></span> SMALL BUSINESS, MADE MORE PRACTICAL</div>
+        <h1>Turn your business idea into a <em>clear next step.</em></h1>
+        <p class="hero-sub">Straightforward tools, checklists, and templates to help you plan smarter, price confidently, and build a business that works.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#tools">Explore free tools <span>↗</span></a>
+          <a class="button button-quiet" href="#starter">Get the starter checklist</a>
+        </div>
+        <div class="proof-row"><span>✓ Beginner-friendly</span><span>✓ Practical, not hype</span><span>✓ Start with free resources</span></div>
+      </div>
+      <div class="hero-visual" aria-label="Illustration of a business launch dashboard">
+        <div class="visual-glow"></div>
+        <div class="dash-card">
+          <div class="dash-top"><span class="tiny-label">YOUR BUSINESS SNAPSHOT</span><span class="status">● IN PROGRESS</span></div>
+          <div class="dash-title">A plan you can act on.</div>
+          <div class="progress-label"><span>Launch checklist</span><b>3 of 5 steps</b></div>
+          <div class="progress"><span></span></div>
+          <div class="task done"><span class="check">✓</span><span>Choose a customer</span><small>DONE</small></div>
+          <div class="task done"><span class="check">✓</span><span>Define the problem</span><small>DONE</small></div>
+          <div class="task done"><span class="check">✓</span><span>Outline your offer</span><small>DONE</small></div>
+          <div class="task"><span class="empty-check"></span><span>Set your price</span><small>NEXT</small></div>
+          <div class="task"><span class="empty-check"></span><span>Find your first customer</span><small>UP NEXT</small></div>
+          <div class="dash-foot"><span>Small steps add up.</span><span class="spark">✳</span></div>
+        </div>
+        <div class="floating-note"><span class="note-icon">↗</span><div><b>Make it measurable</b><small>Know your numbers before you launch.</small></div></div>
+      </div>
+    </section>
+
+    <section class="trust-strip"><div class="wrap trust-inner"><span>BUILT FOR PEOPLE WHO ARE</span><b>Starting out</b><i></i><b>Going solo</b><i></i><b>Growing steadily</b><i></i><b>Doing it themselves</b></div></section>
+
+    <section class="section wrap" id="tools">
+      <div class="section-head"><div><div class="eyebrow">START HERE</div><h2>Free tools for real decisions.</h2></div><p>Get a useful first estimate, then make the decision with your own research and numbers.</p></div>
+      <div class="tool-grid">
+        <article class="tool-card featured-tool">
+          <div class="tool-icon mint">＄</div><span class="tag">INTERACTIVE CALCULATOR</span>
+          <h3>Startup cost planner</h3><p>Estimate what it could cost to get your idea off the ground.</p>
+          <a href="#startup-calculator" class="text-link">Calculate your startup budget <span>→</span></a>
+        </article>
+        <article class="tool-card">
+          <div class="tool-icon lavender">%</div><span class="tag">INTERACTIVE CALCULATOR</span>
+          <h3>Simple pricing calculator</h3><p>Work backward from your costs and target margin.</p>
+          <a href="#pricing-calculator" class="text-link">Find a starting price <span>→</span></a>
+        </article>
+        <article class="tool-card">
+          <div class="tool-icon peach">✓</div><span class="tag">DOWNLOADABLE CHECKLIST</span>
+          <h3>Business launch checklist</h3><p>Keep the first important steps in one simple list.</p>
+          <a href="#starter" class="text-link">Get the free checklist <span>→</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="calculator-band">
+      <div class="wrap calculator-layout">
+        <div class="calc-intro"><div class="eyebrow light-eyebrow">FREE TOOL 01</div><h2>What might it cost to start?</h2><p>Enter rough estimates to build a first-pass startup budget. You can adjust the numbers as you research your actual costs.</p><div class="tip">✦ Tip: Start lean. Separate must-haves from nice-to-haves.</div></div>
+        <div class="calculator" id="startup-calculator">
+          <div class="calc-title"><b>Startup cost estimator</b><span class="live-pill">LIVE TOTAL</span></div>
+          <label>Equipment & supplies <div class="money-input"><span>$</span><input id="equipment" type="number" min="0" value="150"></div></label>
+          <label>Website & software <div class="money-input"><span>$</span><input id="software" type="number" min="0" value="30"></div></label>
+          <label>Licenses, permits & setup <div class="money-input"><span>$</span><input id="setup" type="number" min="0" value="100"></div></label>
+          <label>Initial marketing <div class="money-input"><span>$</span><input id="marketing" type="number" min="0" value="50"></div></label>
+          <div class="calc-total"><span>Estimated startup total</span><strong id="startup-total">$330</strong></div>
+          <small class="disclaimer">Illustrative estimate only. Costs vary by business, location, and legal requirements.</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap pricing-section" id="pricing-calculator">
+      <div class="section-head"><div><div class="eyebrow">FREE TOOL 02</div><h2>Price with your costs in mind.</h2></div><p>A simple starting-point calculator for a product or service. It is not a substitute for market research.</p></div>
+      <div class="pricing-box">
+        <div class="pricing-fields">
+          <label>Cost to deliver one sale <div class="money-input"><span>$</span><input id="unit-cost" type="number" min="0" value="8"></div></label>
+          <label>Target gross margin <div class="percent-input"><input id="margin" type="number" min="1" max="95" value="50"><span>%</span></div></label>
+        </div>
+        <div class="price-result"><span>Suggested starting price</span><strong id="suggested-price">$16.00</strong><small>Formula: cost ÷ (1 − target margin). Check competitor pricing and customer demand before choosing a final price.</small></div>
+      </div>
+    </section>
+
+    <section class="section resources-section" id="resources">
+      <div class="wrap">
+        <div class="section-head"><div><div class="eyebrow">THE FIELD GUIDE</div><h2>Build the foundations first.</h2></div><p>Clear, practical learning for the decisions every new business owner faces.</p></div>
+        <div class="resource-grid">
+          <article class="resource-card"><div class="resource-number">01 / PLAN</div><h3>Validate the problem before building</h3><p>Talk to potential customers, learn what they already use, and test whether your idea solves a real problem.</p><span class="read-time">5 MIN READ · COMING SOON</span></article>
+          <article class="resource-card"><div class="resource-number">02 / PRICE</div><h3>Understand your costs and margins</h3><p>List direct costs, recurring expenses, fees, taxes, and the time required to deliver your offer.</p><span class="read-time">6 MIN READ · COMING SOON</span></article>
+          <article class="resource-card"><div class="resource-number">03 / GROW</div><h3>Find your first ten customers</h3><p>Start with conversations, useful demonstrations, referrals, and a clear offer—not expensive ads.</p><span class="read-time">7 MIN READ · COMING SOON</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap product-section" id="products">
+      <div class="product-panel">
+        <div><div class="eyebrow light-eyebrow">THE TOOLKIT SHOP</div><h2>Useful templates.<br><em>Less starting from scratch.</em></h2><p>We're developing practical downloads for planning, pricing, and running a small business.</p><a class="button button-light" href="#starter">Preview the free checklist <span>↗</span></a></div>
+        <div class="product-stack"><div class="sheet sheet-back">WEEKLY ACTION PLAN</div><div class="sheet sheet-mid">OFFER & PRICING WORKSHEET</div><div class="sheet sheet-front"><span>LAUNCHREADY</span><b>Business<br>Launch Planner</b><small>IDEA → FIRST CUSTOMER</small></div></div>
+      </div>
+      <p class="shop-note">Paid products are not available yet. We'll publish them only after the resources are complete and tested.</p>
+    </section>
+
+    <section class="section wrap starter-section" id="starter">
+      <div class="starter-card">
+        <div class="starter-icon">✳</div>
+        <div class="starter-copy"><div class="eyebrow">FREE DOWNLOAD</div><h2>Your first-step launch checklist.</h2><p>A practical list to help you move from idea to a small, testable offer.</p></div>
+        <button class="button button-primary" id="download-checklist">Download checklist <span>↓</span></button>
+      </div>
+    </section>
+
+    <section class="closing-cta"><div class="wrap closing-inner"><div class="eyebrow light-eyebrow">MAKE THE NEXT MOVE COUNT</div><h2>You don't need a perfect plan.<br><em>You need a useful first step.</em></h2><a href="#tools" class="button button-light">Use the free tools <span>↗</span></a></div></section>
+  </main>
+
+  <footer class="footer"><div class="wrap footer-main"><a class="brand footer-brand" href="#"><span class="brand-mark">LR</span><span>LaunchReady<span class="brand-light"> Toolkit</span></span></a><p>Practical resources for building a business with intention.</p><div class="footer-links"><a href="#tools">Free tools</a><a href="#resources">Guides</a><a href="#products">Templates</a><a href="mailto:hello@launchreadytoolkit.example">Contact</a></div></div><div class="wrap footer-bottom"><span>© <span id="year"></span> LaunchReady Toolkit. All rights reserved.</span><span>Educational resources only. Not legal, tax, or financial advice.</span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
